@@ -19,7 +19,7 @@ llm:
 
 source:
   arxiv:
-    category: ["cs.AI","cs.CV","cs.LG","cs.CL"]
+    category: ["q-bio.PE","q-bio.GN","q-bio.MN","q-bio.QM","q-bio.TO","q-bio.CB","cs.CV","cs.LG","stat.AP"]
 
 executor:
   source: 
