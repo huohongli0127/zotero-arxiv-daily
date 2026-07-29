@@ -15,12 +15,12 @@ llm:
     key: ${oc.env:OPENAI_API_KEY}
     base_url: ${oc.env:OPENAI_API_BASE}
   generation_kwargs:
-    model: 
+    model: gpt-4o-mini
 
 source:
   arxiv:
-    category: ["q-bio.PE","q-bio.GN","q-bio.MN","q-bio.QM","q-bio.TO","q-bio.CB","cs.CV","cs.LG","stat.AP"]
+    category: ["cs.AI","cs.CV","cs.LG","cs.CL"]
 
 executor:
-  source: 
-    - arxiv
+  debug: ${oc.env:DEBUG,null}
+  source: ['arxiv']
