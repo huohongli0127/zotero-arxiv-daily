@@ -24,4 +24,3 @@ source:
 executor:
   source: 
     - arxiv
-    - zotero
